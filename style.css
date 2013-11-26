@@ -1,0 +1,509 @@
+/*  
+Theme Name:Bwd 1
+Theme URI:http://www.bogeywebdesign.com/my-portfolio/wordpress-themes/bwd-1/
+Description:A clean, compliant two column design with web 2.0 inspiration.  Multiple sidebars to allow for different setups on pages, posts, and your 404 page.  Widget-ready, right sidebar, and search engine optimized.
+Author:Bogey Web Design
+Author URI:http://www.bogeywebdesign.com/
+Tags: blue, green, two-columns, fixed-width, right-sidebar
+Version:1.10
+*/
+
+body{
+  color:#666;
+	font:62.5%/1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+	color:#6c6;
+}
+
+a:hover{
+	border-bottom:1px solid #39c;
+	color:#39c;
+}
+
+a img{
+	border:0;
+}
+
+p, dt, dd, address, th, td{
+	font:1.4em/1.4em Verdana, Helvetica, Arial, sans-serif;
+	text-indent:1.5em;
+	margin:0 0 1em;
+}
+
+table{
+  margin:0 0 1em;
+}
+
+  th, td{
+    margin:0;
+    padding:.25em;
+  }
+
+address{
+  font-style:italic;
+}
+
+pre{
+	font:1.4em/2em courier, monospace;
+	margin:0 0 1em;
+}
+
+ul, ol{
+  margin:1em 0;
+}
+
+li{
+  margin:0 0 1em 1em;
+}
+
+  li li{
+    margin:0 0 0 2em;
+  }
+
+blockquote{
+	font:italic 1.4em/2em Verdana, Helvetica, Arial, sans-serif;
+  margin:2em;
+}
+
+  blockquote blockquote{
+    font-size:1em;
+  }
+
+  blockquote p{
+    font-size:1em;
+  }
+
+fieldset{
+	border:0;
+}
+
+	fieldset input, fieldset textarea{
+		border:1px solid #ccc;
+		margin:0 0 1em;
+	}
+
+	fieldset input.submit{
+		background:#eee;
+		padding:.5em;
+		text-align:center;
+	}
+
+	fieldset input.submit:hover{
+		background:#ccc;
+	}
+	
+	fieldset legend{
+		font-size:1.2em;
+		padding: 0 0 1em;
+		font-weight:bold;
+	}
+
+label{
+	font-weight:bold;
+	margin:0 0 .5em;
+}
+
+.clear{
+	clear:both;
+}
+
+img.centered,.aligncenter,div.aligncenter{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img.alignright,img.alignleft{
+  display:inline;
+}
+
+.alignright{
+  float:right;
+}
+
+.alignleft{
+  float:left;
+}
+
+#content{
+	float:left;
+	width:74%;
+}
+
+	#content h1, #content h2, #content h3, #content h4, #content h5, #content h6{
+		color:#555;
+		font-size:2em;
+		padding-bottom:1em;
+		line-height:1.5em;
+		clear:both;
+	}
+	
+	#content h2{
+	  font-size:1.5em;
+	}
+	
+	  #content #introText h2{
+	    font-size:2em;
+	    line-height:1em;
+	    padding-bottom:0.5em;
+	    border-bottom:1px solid #ccc;
+	    float:left;
+	    color:#006;
+	    font-variant:small-caps;
+	  }
+
+	#content h2.postTitle{
+		color:#006;
+		border-bottom:1px solid #ccc;
+		float:left;
+		clear:left;
+		padding-bottom:.3em;
+		font-size:1.5em;
+		font-variant:small-caps;
+	}
+	
+	  #content h2.postTitle a{
+		  padding-bottom:.35em;
+	  }
+	
+	#content h2.archive{
+		font-size:1.75em;
+	}
+	
+	#content h2 a{
+		color:#006;
+	}
+	
+	#content h3{
+	  font-size:1.25em;
+	}
+	
+	#content h4, #content h5, #content h6{
+	  font-size:1em;
+	}
+	
+	#content hr{
+		clear:left;
+		margin:0 2em;
+	}
+	
+	#content .post{
+	  clear:both;
+		margin-bottom:2.5em;
+		padding-right:2em;
+	}
+	
+	  #content .post .title {
+	    overflow: auto;
+	  }
+	
+	#content p{
+		clear:left;
+		line-height:2em;
+		overflow:auto;
+	}
+	
+		#content p.date{
+			text-indent:0;
+			font-weight:bold;
+			font-size:1em;
+		}
+	
+		#content p a:visited{
+			color:#39c;
+		}
+		
+		#content p.meta{
+			margin:1em 0 -1em;
+		}
+		
+		#content p.feedback{
+			padding-bottom:1em;
+		}
+		
+		#content li p, #content li blockquote{
+			float:none;
+			font:1.1em/1.3em Verdana, Helvetica, Arial, sans-serif;
+		}
+		
+		  #content li blockquote p{
+		    font-size:1em;
+		  }
+		
+	#content ul, #content ol, #content dl{
+		clear:left;
+		margin:0 3em 1em;
+	}
+	
+		#content ul li, #content ol li, #content dd, #content dt{
+			color:#666;
+			font:1.3em/2em Verdana, Helvetica, Arial, sans-serif;
+			margin:0 0 1em;
+		}
+		
+		  #content ul ul, #content ul ol, #content ol ol, #content ol ul {
+		    margin: 0 2em;
+		  }
+		
+  		  #content ul li li, #content ol li li {
+  		    font-size: 1em;
+  		  }
+		
+	#content #tagDescription, #content #categoryDescription {
+	  padding-bottom: 2em;
+	}
+		
+	#content ul.postInfo{
+		list-style:none;
+		margin:1em 0 1em .5em;
+	}
+	
+		#content ul.postInfo li{
+			background:url(images/bullet.gif) .7em center no-repeat;
+			margin-bottom:.5em;
+			padding-left:1.25em;
+			font-size:1.2em;
+		}
+	
+			#content ul.postInfo li span{
+				font-weight:bold;
+			}
+		
+	#content textarea{
+		width:50em;
+		height:10em;
+	}
+	
+	#content #page404 ul li{
+		float:left;
+		list-style-type:none;
+		margin:0 1em 1em 0;
+	}
+	
+	#content #comments, #content #trackBacks{
+		clear:both;
+	}
+	
+		#content #comments h4, #content #trackBacks h4{
+			font-size:1.2em;
+			margin:0 3em 1em 0;
+			padding-bottom:.5em;
+			border-bottom:0.1em solid #ccc;
+			color:#69c;
+		}
+	
+		#content #comments p, #content #trackBacks p, #content fieldset p, #content p.categoryPagination{
+			text-indent:0;
+		}
+		
+		#content #comments p.commentAuthor{
+			font-size:1em;
+			margin-bottom:0;
+			overflow:hidden;
+		}
+		
+		#content #comments p.messageTime, #content #trackBacks p.commentAuthor{
+			font-size:1em;
+		}
+	
+		#content #comments li, #content #trackBacks li{
+			margin-bottom:0;
+			padding:1em;
+		}
+	
+		#content #comments .avatar{
+			float:right;
+			padding:.5em;
+			margin-left:1em;
+			border:1px solid #ccc;
+		}
+		
+		#content #comments p.closedComments{
+		  text-indent:1.5em;
+		}
+		
+	#content p.categoryPagination{
+	  padding-right:1px;
+	}
+	
+	  #content p.categoryPagination span{
+	    width:45%;
+  	  float:right;
+  	  text-align:right;
+  	}
+		
+  	#content p.categoryPagination span:first-child{
+  	  float:left;
+  	  text-align:left;
+  	}
+		
+	#content label, #content textarea{
+		display:block;
+	}
+	
+	#content p.backToTop{
+		font-size:1.2em;
+		text-indent:0;
+	}
+
+#right{
+	float:right;
+	width:20%;
+}
+
+	#right h3{
+		color:#69c;
+		font-size:1.5em;
+		border-bottom:.1em solid #ccc;
+		padding-bottom:.5em;
+		margin:.2em 0;
+	}
+	
+		#right h3 a{
+			color:#69c;
+			margin-right:10px;
+		}
+
+	#right h4{
+		color:#69c;
+		font-size:1.25em;
+		padding:0 0 .5em 1em;
+		margin:.2em 0;
+	}
+		
+	#right #search{
+		margin-bottom:2em;
+	}
+	
+		#right #search div{
+			margin-top:.5em;
+		}
+		
+			#right #search input{
+				padding:.2em 0;
+			}
+			
+			#right #search input.submit{
+				padding:.1em .5em;
+			}
+			
+	#right p#tagCloud{
+		text-indent:0;
+	}
+	
+		#right p#tagCloud a{
+			line-height:1.1em;
+		}
+	
+	#right ul{
+		list-style-type:none;
+		margin-bottom:2em;
+	}
+	
+	  #right ul li{
+	    margin:0 0 .5em;
+	    line-height:1.5em;
+	  }
+	
+			#right ul li a{
+				background:url(images/bullet.gif) .7em center no-repeat;
+				color:#9c9;
+				padding:.3em 0 .3em 2em;
+				display:block;
+				font-size:1.4em;
+			}
+			
+			#right ul li a:hover{
+				background:#333 url(images/bullet2.gif) .2em center no-repeat;
+				color:#6f6;
+				border:0;
+			}
+			
+			  #right ul li li{
+			    margin-left:2em;
+			  }
+
+#wrapper{
+	width:100em;
+	margin:0 auto;
+}
+
+#header{
+}
+
+	#header #blogTitle{
+	  background:#97cacb url(images/hdrBckgrd1.gif) top left repeat-x;
+	}
+	
+	#header #blogTitle div{
+	  width:100em;
+	  margin:0 auto;
+	  padding:2em 0 1em;
+	  overflow:auto;
+	}
+	
+	#header h1{
+	  color:#fff;
+	  font-size:3em;
+	  font-variant:small-caps;
+	}
+
+  	#header h1 span{
+  	  font-variant:normal;
+  		color:#fff;
+  		font-size:.4em;
+  		float:right;
+  		text-align:right;
+  		line-height:1.2em;
+  		padding:1.5em 0 0;
+  	}
+	
+	#header #blogNavigation{
+	  background:#656565 url(images/hdrBckgrd2.gif) top left repeat-x;
+	  border-bottom:1px solid #848484;
+	  margin:0 0 2em;
+	}
+	
+  	#header ul{
+  		list-style-type:none;
+  		width:100em;
+  		margin:0 auto;
+  		display:block;
+  		text-align:center;
+  		line-height:2em;
+  		padding:1em 0;
+  	}
+	
+  		#header li{
+  			display:inline;
+  		}
+	
+  		#header ul li a{
+  			text-decoration:none;
+  			margin:0 .5em;
+  			font-variant:small-caps;
+  			font-size:1.8em;
+  			font-weight:bold;
+  		}
+		
+  		#header ul li a:hover, #header ul li a.home{
+  			color:#39c;
+  			text-decoration:none;
+  		}
+		
+#footer{
+	clear:both;
+	text-align:center;
+}
+
+	#footer p#copyright{
+		margin-bottom: .5em;
+	}

@@ -1,0 +1,1 @@
+	<p class="backToTop"><a href="#header">Back to top</a></p>
